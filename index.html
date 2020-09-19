@@ -29,6 +29,35 @@
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <style>
+          
+          .button{
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block; 
+  font-size: 30px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 46px;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.button1 {
+    /* background-color: ; */
+    color: white; 
+    border: 5px solid #00ffff;
+  }
+  
+  .button1:hover {
+    background-color: #80ffff;
+    color: black;
+  }
+  
+        </style>
   </head>
   <body>
     <!-- Reference item-->
@@ -148,48 +177,18 @@
     
     <!-- Statistics-->
     <section id="statistics" data-dir="up" style="background: url(&quot;img/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
-      <!-- <div class="container">
-        <div class="row showcase text-center">  -->
-          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
-            <!-- <div class="item">
-              <div class="icon"><i class="fa fa-align-justify"></i></div>
-              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">120</span><br>Websites</h5>
-            </div>
-          </div>
-          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
-            <div class="item">
-              <div class="icon"><i class="fa fa-users"></i></div>
-              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">50</span><br>Satisfied Clients</h5>
-            </div>
-          </div>
-          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
-            <div class="item">
-              <div class="icon"><i class="fa fa-copy"></i></div>
-              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">320</span><br>Projects</h5>
-            </div>
-          </div>
-          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
-            <div class="item">
-              <div class="icon"><i class="fa fa-font"></i></div>
-              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">333</span><br>Magazines and Brochures</h5>
-            </div>
-          </div> -->
-            <div class="container is-narrow">
-              <div class="box">
-                <div class="columns level">
-                  <div class="column level-item">
-                    <h1 class="title">Start a project</h1>
-                  </div>
-                  <div class="column level-item">
-                    <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
-                  </div>
-                  <div class="column level-item"><a class="button is-primary is-outlined is-rounded is-medium" href="#contact">Let's do this</a></div>
-                </div>
-              </div>
-            </div>
-        <!-- </div>
-      </div> -->
-      <div class="dark-mask"></div>
+     <div data-animate="fadeInDown" style="text-align: center; box-sizing: border-box;overflow: hidden; border-radius: 14px 60px;border: 5px solid black; width: auto; height: auto; margin: 10px 50px;">
+         <div>
+         <p style="font-size: 50px; color: aliceblue; text-decoration: underline;text-shadow: 2px 2px 4px #000000;"><strong>START A PROJECT</strong></p>
+        </div>
+        <div>
+         <p style="font-size: 30px; color: aquamarine;  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">Interested in working together ? We should queue up a chat. I’ll buy the coffee.</p>
+        </div>
+        <div>
+          <a style="text-decoration: none;" href="#contact" class="button button1" >Let's do this</a>
+        </div>
+        <br><br>
+        </div>
     </section>
     <!--
     *** REFERENCES IMAGE ***
@@ -200,7 +199,7 @@
         <div class="col-sm-12">
           <div class="mb-5 text-center">
             <h2 data-animate="fadeInUp" class="title">My work</h2>
-            <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest for you.</p>
+            <p data-animate="fadeInUp" class="lead">I have worked on many projects, so I have picked only the latest for you.</p>
           </div>
           <ul id="filter" data-animate="fadeInUp">
             <li class="active"><a href="#" data-filter="all">All</a></li>
