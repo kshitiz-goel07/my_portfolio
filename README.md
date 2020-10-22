@@ -1,4 +1,6 @@
 # my_portfolio
- <h2>Still working on it....</h2> 
+Hey ya !! Check out my Portfolio
  
-# [Check it here](https://kshitiz-goel07.github.io/my_portfolio/)
+ 
+# [Click Here](https://kshitiz-goel07.github.io/my_portfolio/)
+# Made with ❤ by Kshitiz Goel
